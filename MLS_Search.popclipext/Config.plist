@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Version</key>
+	<integer>1</integer>
+	<key>Extension Name</key>
+	<string>MLS Search</string>
+	<key>Extension Identifier</key>
+	<string>us.koopmann.popclip.extension.mls-search</string>
+	<key>Extension Description</key>
+	<string>Open Realtor.com search for the selected MLS number.</string>
+	<key>Actions</key>
+	<array>
+		<dict>
+			<key>URL</key>
+			<string>http://www.realtor.com/realestateandhomes-search?mlslid={popclip text}</string>
+			<key>Image File</key>
+			<string>icon.png</string>
+			<key>Title</key>
+			<string>MLS</string>
+			<key>Regular Expression</key>
+			<string>(?s)^\d{5,30}$</string>
+		</dict>
+	</array>
+</dict>
+</plist>
