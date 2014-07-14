@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Version</key>
+	<integer>1</integer>
+	<key>Extension Name</key>
+	<string>GTM Join</string>
+	<key>Extension Identifier</key>
+	<string>com.rkoopmann.popclip.extension.gtm-join</string>
+	<key>Extension Description</key>
+	<string>Open GTM with selected meeting number.</string>
+	<key>Actions</key>
+	<array>
+		<dict>
+			<key>Title</key>
+			<string>GTM</string>
+			<key>Script Interpreter</key>
+			<string>/usr/bin/ruby</string>
+			<key>Shell Script File</key>
+			<string>joingtm.rb</string>
+			<key>Regular Expression</key>
+			<string>\d{3}-?\d{3}-?\d{3}</string>
+			<key>After</key>
+			<string>show-status</string>
+		</dict>
+	</array>
+	<key>Credits</key>
+	<array>
+		<dict>
+			<key>Name</key>
+			<string>Richard Koopmann</string>
+			<key>Link</key>
+			<string>http://rkoopmann.com</string>
+		</dict>
+	</array>
+	<key>Apps</key>
+	<array>
+		<dict>
+			<key>Bundle Identifier</key>
+			<string>com.citrixonline.GoToMeeting</string>
+			<key>Check Installed</key>
+			<true/>
+			<key>Link</key>
+			<string>http://gotomeeting.com</string>
+			<key>Name</key>
+			<string>GoToMeeting</string>
+		</dict>
+	</array>
+</dict>
+</plist>
