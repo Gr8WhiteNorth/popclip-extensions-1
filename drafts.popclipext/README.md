@@ -1,5 +1,5 @@
-nvALT
-=====
+drafts
+======
 
 [drafts](https://getdrafts.com/mac/beta/) extension for PopClip
 
