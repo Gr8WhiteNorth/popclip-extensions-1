@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Actions</key>
+	<array>
+		<dict>
+			<key>Shell Script File</key>
+			<string>drafts.sh</string>
+			<key>Title</key>
+			<string>drafts</string>
+			<key>Image File</key>
+			<string>drafts.png</string>
+		</dict>
+	</array>
+	<key>Apps</key>
+	<array>
+		<dict>
+			<key>Bundle Identifier</key>
+			<string>com.agiletortoise.Drafts-OSX</string>
+			<key>Check Installed</key>
+			<false/>
+			<key>Link</key>
+			<string>https://getdrafts.com/mac/beta/
+</string>
+			<key>Name</key>
+			<string>drafts</string>
+
+		</dict>
+	</array>
+	<key>Credits</key>
+	<array>
+		<dict>
+			<key>Name</key>
+			<string>rkoopmann</string>
+		</dict>
+	</array>
+	<key>Extension Description</key>
+	<string>Create a note in Drafts 5.</string>
+	<key>Extension Identifier</key>
+	<string>com.rkoopmann.popclip.extensions.drafts</string>
+	<key>Extension Name</key>
+	<string>drafts</string>
+	<key>Required Software Version</key>
+	<string>701</string>
+</dict>
+</plist>
